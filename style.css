@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#lista-convidados {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#lista-convidados li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#lista-convidados li:last-child {
+    border-bottom: none;
+}
+
+.remover {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.remover:hover {
+    background-color: #cc0000;
+}
